@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <div class="container mx-auto px-4 py-8 mt-20">
+        <div class="mb-3">
+            <a href="{{ path('clubs') }}" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">Go
+                Back</a>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="{{ club.name}} shadow-md rounded-lg overflow-hidden">
+                    <div class="flex justify-center">
+                        <img class="w-4/5 object-cover" src="{{ asset('img/' ~ club.img) }}" alt="{{ club.name }}">
+                    </div>
+                    <div class="p-4">
+                        <h2 class="text-xl font-bold mb-2 dark:text-white">{{ club.name }}</h2>
+                        <p class="text-gray-700 dark:text-white"><strong>Created:</strong> {{ club.created }}</p>
+                        <p class="text-gray-700 dark:text-white"><strong>Country:</strong> {{ club.country }}</p>
+                        <p class="text-gray-700 dark:text-white"><strong>League:</strong> {{ club.league }}</p>
+                        <p class="text-gray-700 dark:text-white"><strong>Trophies:</strong> {{ club.trophy }}</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+{% endblock %}
+

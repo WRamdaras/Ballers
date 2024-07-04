@@ -1,0 +1,20 @@
+{# templates/form/tailwind_2_layout.html.twig #}
+{% block form_row %}
+    <div class="mb-4">
+        {{- form_label(form, null, { 'label_attr': { 'class': 'block text-gray-700 text-sm font-bold mb-2' } }) -}}
+        {{- form_widget(form, { 'attr': { 'class': 'shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline' } }) -}}
+        {{- form_errors(form, { 'attr': { 'class': 'text-red-500 text-xs italic' } }) -}}
+    </div>
+{% endblock %}
+
+{% block form_errors %}
+    {% if errors|length > 0 %}
+        <div class="text-red-500 text-xs italic">
+            <ul>
+                {% for error in errors %}
+                    <li>{{ error.message }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+{% endblock %}

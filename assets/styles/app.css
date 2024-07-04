@@ -1,0 +1,155 @@
+body::-webkit-scrollbar {
+    width:0px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #888888;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:#555;
+}
+
+.fut-card-l1 {
+    background-image: url("../img/wc-card.png");
+}
+
+.fut-card-l2 {
+    background-image: url("../img/moving-hero.webp");
+}
+
+select:not([size]){
+    background-image:none;
+}
+
+.Barcelona{
+    background-image: url("../img/barca-marmer.png");
+}
+
+.Madrid{
+    background-image: url("../img/madrid-marmer.png");
+}
+
+.United{
+    background: linear-gradient(315deg, #DA291C 0%, #FBE122 100%)
+}
+
+.Liverpool{
+    background: linear-gradient(315deg, #C8102E 0%, #FFFFFF 100%)
+}
+
+.Bayern{
+    background: linear-gradient(315deg,  #DC052D 0%,  #FFFFFF 100%)
+}
+
+.Juventus{
+    background: linear-gradient(315deg, #000000 0%,  #FFFFFF 100%)
+}
+
+.Paris{
+    background: linear-gradient(315deg, #004D98 0%, #E41F26 100%)
+}
+
+.Chelsea{
+    background: linear-gradient(315deg, #034694 0%,  #FFFFFF 100%)
+}
+
+.Milan{
+    background: linear-gradient(315deg, #E31937 0%, #000000 100%)
+}
+
+.Ajax{
+    background: linear-gradient(315deg, #EF1C21 0%, #FFFFFF 100%)
+}
+
+.Miami{
+    background-image: url("../img/inter-miami-marmer.png");
+}
+
+.Sporting{
+    background: linear-gradient(315deg, #007A33 0%, #FFFFFF 100%)
+}
+
+.Al-Nassr{
+    background-image: url("../img/nassr-marmer.png");
+    background-size: cover;
+}
+
+.Monaco{
+    background: linear-gradient(315deg,  #D81E05 0%, #FFFFFF 100%)
+}
+
+.Poznań{
+    background: linear-gradient(315deg,  #003DA5 0%, #FFFFFF 100%)
+}
+
+.Dortmund{
+    background: linear-gradient(315deg,  #FFD700 0%, #000000 100%)
+}
+
+.Genk{
+    background: linear-gradient(315deg,  #0033A0 0%,  #FFFFFF 100%)
+}
+
+.Bremen{
+    background: linear-gradient(315deg, #00843D 0%, #FFFFFF 100%)
+}
+
+.Wolfsburg{
+    background: linear-gradient(315deg,  #007C3E 0%, #FFFFFF 100%)
+}
+
+.Santos{
+    background: linear-gradient(315deg, #FFFFFF 0%, #000000 100%)
+}
+
+.Zagreb{
+    background: linear-gradient(315deg, #004EA2 0%,  #FFFFFF 100%)
+}
+
+.Tottenham{
+    background: linear-gradient(315deg, #132257 0%, #FFFFFF 100%)
+}
+
+.Sydney{
+    background: linear-gradient(315deg, #74B3CE 0%,  #00314C 100%)
+}
+
+.Odisha{
+    background: linear-gradient(315deg, #5C2D91 0%,  #F36D21 100%)
+}
+
+.Sadd{
+    background: linear-gradient(315deg, #9D2235 0%, #FFFFFF 100%)
+}
+
+.Al-Hilal{
+    background-image: url("../img/hilal-marmer.png");
+    background-size: cover;
+}
+
+.Willem{
+    background: linear-gradient(315deg, #DC052D 0%, #FFFFFF 100%)
+}
+
+.City{
+    background-image: url("../img/city-marmer.png");
+}
+
+.Padova{
+    background: linear-gradient(315deg, #E30613 0%, #FFFFFF 100%)
+}
+
+.Retired{
+    background-image: url("../img/icon.png");
+    border: 5px solid #d4af37;
+}

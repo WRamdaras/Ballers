@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{#{% block title %}Register{% endblock %}#}
+
+
+
+
+{% block body %}
+
+    <div class="flex items-center justify-center min-h-screen bg-gray-100">
+        <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-full max-w-xs">
+            {% form_theme registrationForm 'form/tailwind_2_layout.html.twig' %}
+            {{ form_start(registrationForm) }}
+            {{ form_errors(registrationForm) }}
+            {{ form_row(registrationForm.firstname) }}
+            {{ form_row(registrationForm.lastname) }}
+            {{ form_row(registrationForm.email) }}
+            {{ form_row(registrationForm.plainPassword, { label: 'Password' }) }}
+
+            <div class="flex items-center justify-between">
+                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Register</button>
+            </div>
+            {{ form_end(registrationForm) }}
+        </div>
+    </div>
+
+{% endblock %}
